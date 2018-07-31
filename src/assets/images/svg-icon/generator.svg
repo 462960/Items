@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>barcode icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1">
+        <g id="icon_barcode_inactive" transform="translate(-14.000000, -16.000000)">
+            <g id="barcode-icon" transform="translate(14.000000, 16.000000)">
+                <rect id="Rectangle-path" x="0" y="0" width="2" height="16"></rect>
+                <rect id="Rectangle-path" x="6" y="0" width="3" height="16"></rect>
+                <rect id="Rectangle-path" x="15" y="0" width="1" height="16"></rect>
+                <rect id="Rectangle-path" x="4" y="0" width="1" height="16"></rect>
+                <rect id="Rectangle-path" x="18" y="0" width="2" height="16"></rect>
+                <rect id="Rectangle-path" x="11" y="0" width="2" height="16"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

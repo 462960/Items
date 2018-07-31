@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="49px" viewBox="0 0 50 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M34.439,22.434 C34.439,17.226 30.213,13 25.005,13 L25.005,22.434 L34.439,22.434 Z M25.73,24.006 L32.424,30.713 C34.157,29.005 35.225,26.622 35.225,24.006 L25.73,24.006 Z M23.433,23.933 L23.433,14.573 C18.225,14.573 14,18.798 14,24.006 C14,29.214 18.225,33.44 23.433,33.44 C26.049,33.44 28.432,32.372 30.14,30.639 L23.433,23.933 Z" id="path-1"></path>
+        <filter x="-106.0%" y="-110.1%" width="312.0%" height="320.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.48627451   0 0 0 0 0.835294118   0 0 0 0 0.262745098  0 0 0 0.35 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_dashboard_active" transform="translate(1.000000, 1.000000)">
+            <g id="icon">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#7CD543" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

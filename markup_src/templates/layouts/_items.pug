@@ -1,0 +1,309 @@
+.wrap-inventory-block
+  .wrap-top-row-colaborator.posr
+    .tooltip-items-lime
+      .tooltip-items-lime-left
+        .tooltip-items-lime-left-item.m-r-30.bold 3 Items selectors
+        .tooltip-items-lime-left-item.m-r-15.bold Change:
+        .tooltip-items-lime-left-item.m-r-15 Collaborator
+        .tooltip-items-lime-left-item.m-r-15 Status
+        .tooltip-items-lime-left-item.m-r-15 Location
+      .tooltip-items-lime-right
+        .tooltip-items-lime-right-item.m-r-15
+          span.title-header-btn Import
+          svg.svg-down-arrow: use(xlink:href="/images/sprite.svg#down-arrow")
+        .tooltip-items-lime-right-item.m-r-15 Archive
+        .tooltip-items-lime-right-item.m-r-15 Delete
+    .wrap-df.posr
+      input(type='text',placeholder='Searsh...').input-inventory.m-r-10
+      img(src="/images/small-lupe.svg" class="lupe-abs" alt="page")
+      button.btn.btn-inventor.btn-white
+        //img(src="/images/page.svg" alt="page").m-r-10
+        svg.svg-bookmark: use(xlink:href="/images/sprite.svg#bookmark")
+        span.title-header-btn.m-r-10.m-l-10 Import
+        img(src="/images/arrow-down.svg" alt="arrow")
+    .wrap-main-tooltip.posr
+      button.wrap-row.wrap-row-hov
+        svg.svg-gear: use(xlink:href="/images/sprite.svg#gear-new").m-r-10
+        //img(src="/images/gear.png" class="gear" alt="gear-icon").m-r-10
+        span.custom-text Customize columns
+      .tooltip-items
+        .tooltip-items-header
+          .tooltip-items-header-title Show columns
+          .tooltip-items-header-close
+            span.m-r-10 Close
+            button.style-btn-non
+              svg.svg-cancel: use(xlink:href="/images/sprite.svg#delete")
+        .tooltip-items-content
+          ul
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Name
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Barcode
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Serial Number
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Place
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Department
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Collaborator
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Status
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Total count
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Date
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+
+
+  table.table-inventor.table-head-items
+    thead.table-head
+      tr
+        th(scope='col')
+          input(type='checkbox').checkbx-number
+        th(scope='col').posr
+          button.style-btn-table Name
+            img(src="/images/arrow-down.svg" class="table-filter" alt="filter")
+        th(scope='col').posr
+          button.style-btn-table Barcode
+            img(src="/images/arrow-down.svg" class="table-filter" alt="filter")
+        th(scope='col').posr
+          button.style-btn-table Serial Number
+            img(src="/images/arrow-down.svg" class="table-filter" alt="filter")
+        th(scope='col').posr
+          button.style-btn-table Location
+            img(src="/images/arrow-down.svg" class="table-filter" alt="filter")
+        th(scope='col').posr
+          button.style-btn-table Collaborator
+            img(src="/images/arrow-down.svg" class="table-filter" alt="filter")
+        th(scope='col').posr
+          button.style-btn-table Status
+            img(src="/images/arrow-down.svg" class="table-filter" alt="filter")
+        th(scope='col').posr
+          button.style-btn-table Total Count
+            img(src="/images/arrow-down.svg" class="table-filter" alt="filter")
+        th(scope='col').posr
+          button.style-btn-table Date
+            img(src="/images/arrow-down.svg" class="table-filter" alt="filter")
+        th(scope='col') Actions
+    tbody
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Rubber doll
+        td 12345678
+        td 1234567890/
+        td Фойе
+        td Аркадий Себастьянович
+        td in using
+        td 1
+        td 22/12/2018
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Rubber doll
+        td 12345678
+        td 1234567890/
+        td Фойе
+        td Аркадий Себастьянович
+        td in using
+        td 1
+        td 22/12/2018
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Rubber doll
+        td 12345678
+        td 1234567890/
+        td Фойе
+        td Аркадий Себастьянович
+        td in using
+        td 1
+        td 22/12/2018
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Rubber doll
+        td 12345678
+        td 1234567890/
+        td Фойе
+        td Аркадий Себастьянович
+        td in using
+        td 1
+        td 22/12/2018
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Rubber doll
+        td 12345678
+        td 1234567890/
+        td Фойе
+        td Аркадий Себастьянович
+        td in using
+        td 1
+        td 22/12/2018
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Rubber doll
+        td 12345678
+        td 1234567890/
+        td Фойе
+        td Аркадий Себастьянович
+        td in using
+        td 1
+        td 22/12/2018
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Rubber doll
+        td 12345678
+        td 1234567890/
+        td Фойе
+        td Аркадий Себастьянович
+        td in using
+        td 1
+        td 22/12/2018
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Rubber doll
+        td 12345678
+        td 1234567890/
+        td Фойе
+        td Аркадий Себастьянович
+        td in using
+        td 1
+        td 22/12/2018
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Rubber doll
+        td 12345678
+        td 1234567890/
+        td Фойе
+        td Аркадий Себастьянович
+        td in using
+        td 1
+        td 22/12/2018
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Rubber doll
+        td 12345678
+        td 1234567890/
+        td Фойе
+        td Аркадий Себастьянович
+        td in using
+        td 1
+        td 22/12/2018
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Rubber doll
+        td 12345678
+        td 1234567890/
+        td Фойе
+        td Аркадий Себастьянович
+        td in using
+        td 1
+        td 22/12/2018
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Rubber doll
+        td 12345678
+        td 1234567890/
+        td Фойе
+        td Аркадий Себастьянович
+        td in using
+        td 1
+        td 22/12/2018
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+    tfoot.table-foot
+      tr
+        td(colspan='8') Displaying 1 to 20 of 235 collaborators
+        td(colspan='2')
+          //.wrap-pagination
+          .ta-r
+            button.colaborator-pagination-round-btn.m-r-5
+              img(src="/images//left-arrow.svg" class="left-arrow" alt="left")
+            span.header-text.m-r-5 Page
+            input(type='text',placeholder='1').colaborator-pagination-white-window.m-r-5
+            span.header-text.m-r-5 of 4
+            button.colaborator-pagination-round-btn
+              img(src="/images//right-arrow.svg" class="right-arrow" alt="right")
+
+
+
+

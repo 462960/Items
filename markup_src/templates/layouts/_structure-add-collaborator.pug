@@ -1,0 +1,41 @@
+.wrap-modal
+  .modal-content-inventor
+    .modal-header-inventor
+      span.modal-title-inventor Add collaborator
+    .modal-body-inventor.container
+      .row.mb-10
+        label.col-3.list-text Name
+        .col-9
+          input.form-control.form-control-sm(type='text', placeholder='Enter')
+      .row.mb-10
+        label.col-3.list-text Position
+        .col-9
+          input.form-control.form-control-sm(type='text', placeholder='Enter')
+      .row.mb-10
+        label.col-3.list-text Location
+        .col-9.posr
+          select.form-control.form-control-sm
+            option Select
+            option Контора Никанора
+            option Шарашкина контора
+            option Контора "Рога и Копыта"
+      .row.mb-10
+        label.col-3.list-text Phone number
+        .col-9
+          input.form-control.form-control-sm(type='text', placeholder='Enter')
+      .row.mb-10
+        label.col-3.list-text Email
+        .col-9
+          input.form-control.form-control-sm(type='text', placeholder='Enter')
+      .row.mb-10
+        label.col-3.list-text Birthday
+        .col-9
+          input#format.span2.form-control.form-control-sm(name='format', type='text', placeholder='mm/dd/yyyy')
+    .modal-footer-inventor
+      button.btn.btn-inventor.btn-white
+        img(src="/images/cancel.svg" class="header-plus" alt="cancel")
+        span.title-header-btn Cancel
+      button.btn.btn-inventor.btn-lime
+        img(src="/images/plus.svg" class="header-plus" alt="plus")
+        span.title-header-btn Create collaborator
+

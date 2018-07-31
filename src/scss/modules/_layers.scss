@@ -1,0 +1,41 @@
+.absolute-layer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  visibility: hidden;
+  transition: opacity .5s, visibility .5s;
+  opacity: 0;
+  background-color: white;
+  z-index: 1;
+
+  &.-show {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.progress-layer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+  &.-show {
+    transition-delay: 1.5s;
+  }
+}
+
+.table-loding-layer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  .-not-loaded {
+    transition: none;
+  }
+  
+  &.-show {
+    transition-delay: .5s;
+  }
+}

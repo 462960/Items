@@ -1,0 +1,156 @@
+.login-text {
+  font-size: 0.8125rem;
+  color: #000;
+  font-family: $font-default;
+
+  &:hover {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.wrap-text-login {
+  text-align: center;
+}
+
+.text-black {
+  font-size: 14px;
+  font-family: $font-default;
+  color: #000;
+}
+
+.text-gray {
+  font-size: 14px;
+  font-family: $font-default;
+  color: #c6ced5;
+}
+
+.text-lime {
+  font-family: $font-default;
+  color: $green-primary;
+  font-size: 13px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.wrap-planning-list-header-vertical-line {
+  font-size: 25px;
+  color: #e5eaee;
+}
+
+.custom-text {
+  font-size: 13px;
+  font-family: $font-default;
+  color: #a2afb7;
+  margin-bottom: 0;
+}
+
+.text-red {
+  font-size: 13px;
+  font-family: $font-default;
+  color: #f69a9a;
+}
+
+.text-dynamic {
+  font-size: 13px;
+  font-family: $font-default;
+}
+
+.text-white {
+  font-size: 14px;
+  font-family: $font-default;
+  color: #fff;
+}
+
+.text-list {
+  font-size: 13px;
+  font-family: $font-default;
+  color: #919faa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-list--light {
+  color: #bbc5cd;
+}
+
+.text-gray-light {
+  font-size: 11px;
+  font-family: $font-default;
+  color: #bbc5cd;
+}
+
+.psevdoelement {
+  color: #202427;
+  font-size: 13px;
+  font-family: $font-default;
+  position: relative;
+
+  &:before {
+    background: #dbe0e4;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    left: -22vw;
+    top: 50%;
+    width: 20vw;
+  }
+
+  &:after {
+    background: #dbe0e4;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    right: -22vw;
+    top: 50%;
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: $w-m) {
+  .text-gray {
+    font-size: 11px;
+  }
+
+  .text-black {
+    font-size: 11px;
+  }
+
+  .text-white {
+    font-size: 11px;
+  }
+
+  .text-list {
+    font-size: 12px;
+  }
+
+  .login-text {
+    font-size: 12px;
+  }
+
+  .text-dynamic {
+    font-size: 11px;
+  }
+
+  .custom-text {
+    font-size: 11px;
+  }
+
+  .text-gray-light {
+    font-size: 10px;
+  }
+}
+
+.text-hint {
+  font-size: 13px;
+  font-family: $font-default;
+  color: $main-color;
+}
+
+@media screen and (max-width: $w-s) {
+  .login-text {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,213 @@
+.svg-gear {
+  width: 17px;
+  height: 17px;
+  fill: #7cd543;
+  vertical-align: middle;
+}
+
+.svg-gear--gray {
+  fill: #bbc5cd;
+}
+
+.svg-pen {
+  width: 15px;
+  height: 15px;
+  fill: #b9c4cb;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.svg-cancel {
+  width: 10px;
+  height: 10px;
+  fill: #bbc5cd;
+  vertical-align: middle;
+}
+
+.svg-lupe {
+  width: 22px;
+  height: 22px;
+  fill: #bbc5cd;
+  vertical-align: middle;
+}
+
+.svg-bookmark {
+  width: 12px;
+  height: 14px;
+  fill: #8694a1;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.svg-down-arrow {
+  width: 9px;
+  height: 8px;
+  fill: #fff;
+}
+
+.svg-down-arrow-black {
+  width: 9px;
+  height: 8px;
+  fill: #8694a1;
+}
+
+.svg-add {
+  width: 10px;
+  height: 10px;
+  fill: #fff;
+}
+
+.svg-add-dark {
+  width: 10px;
+  height: 10px;
+  fill: #8694a1;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.svg-arrow-r {
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+}
+
+.svg-arrow-r--gray {
+  fill: #bbc5cd;
+}
+
+.svg-cart {
+  fill: #bac4cc;
+  width: 14px;
+  height: 13px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.svg-cart-red {
+  fill: #f69a9a;
+  width: 14px;
+  height: 13px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.svg-reload {
+  fill: #bac4cc;
+  width: 20px;
+  height: 20px;
+  margin-bottom: -5px;
+}
+
+.svg-plus {
+  fill: #bac4cc;
+  width: 20px;
+  height: 20px;
+}
+
+.svg-floppy {
+  width: 13px;
+  height: 13px;
+  fill: #83939f;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.svg-lime-plus {
+  fill: $green-primary;
+  width: 10px;
+  height: 10px;
+}
+
+.svg-white-plus {
+  fill: #fff;
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.svg-points {
+  width: 10px;
+  height: 17px;
+  fill: #8695a1;
+  cursor: pointer;
+}
+
+.svg-cube {
+  width: 20px;
+  height: 20px;
+  fill: #bbc5cd;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.svg-icon-big {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  fill: #dbe0e4;
+}
+
+.svg-reload-lime {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.svg-small-icon {
+  width: 13px;
+  height: 15px;
+  fill: #8695a1;
+  cursor: pointer;
+}
+
+.svg-flying {
+  width: 13px;
+  height: 13px;
+
+}
+
+//.left-arrow {
+//  display: flex;
+//}
+//
+//.right-arrow {
+//  display: flex;
+//}
+
+/* helpers section (start) */
+
+.fill-white {
+  fill: #fff !important;
+}
+
+/* helpers section (end) */
+
+@media screen and (max-width: $w-m) {
+  .svg-icon-big {
+    width: 37px;
+    height: 37px;
+  }
+}
+
+@media screen and (max-width: $w-s) {
+  .svg-icon-big {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+// Helpers section arrow rotation
+.arrowDown {
+    transition: transform .3s ease-in-out;
+    transform: rotate(0);
+}
+
+.arrowUp {
+    transition: transform .3s ease-in-out;
+    transform: rotate(180deg);
+}
+
+

@@ -1,0 +1,78 @@
+.wrap-modal
+  .modal-content-inventor
+      .modal-header-inventor
+        span.modal-title-inventor New Item
+        button(type='button').header-lupe
+          img(src="/images/cart.svg" alt="cart-icon")
+      .modal-body-inventor.container
+        .row.mb-10
+          label.col-3.list-text Name
+          .col-9
+            input.form-control.form-control-sm(type='text', placeholder='Enter')
+        .row.mb-10
+          label.col-3.list-text Description
+          .col-9
+            input.form-control.form-control-sm(type='text', placeholder='Enter')
+        .row.mb-10
+          label.col-3.list-text Barcode
+          .col-9.posr
+            input.form-control.form-control-sm.pr-100(type='text', placeholder='Enter manually')
+            .wrap-scanner
+              img(src="/images/scanner.svg" class="icon-scanner" alt="icon-scanner")
+              span Select device
+        .row.mb-10
+          label.col-3.list-text Serial Number
+          .col-9
+            input.form-control.form-control-sm(type='text', placeholder='Enter')
+        .row.mb-10
+          label.col-3.list-text Location
+          .col-9
+            select.form-control.form-control-sm
+              option Select
+              option Контора Никанора
+              option Шарашкина контора
+              option Контора "Рога и Копыта"
+        .row.mb-10
+          label.col-3.list-text Collaborator
+          .col-9
+            select.form-control.form-control-sm
+              option Select
+              option Себастьян
+              option Севастьян
+              option Аркадий Самуилович Шлёпайшляпа
+        .row.mb-10
+          label.col-3.list-text Status
+          .col-9
+            select.form-control.form-control-sm
+              option Select
+              option Знахарь
+              option Сборщик податей
+              option Старший помощник младшего конюха
+        .row.mb-10
+          label.col-3.list-text Total count
+          .col-9
+            input.form-control.form-control-sm(type='text', placeholder='Enter')
+        .row.mb-10
+          label.col-3.list-text Date of registration
+          .col-9
+            input#format.span2.form-control.form-control-sm(name='format', type='text', placeholder='mm/dd/yyyy')
+        .row.mb-10
+          label.col-3.list-text Comment
+          .col-9
+            input.form-control.form-control-sm(type='text', placeholder='Enter')
+        .row
+          label.col-3.list-text-top Photo
+          .col-9
+            .form-control-photo
+              img(src="/images/shape.svg" class="modal-shape" alt="icon-shape").mb-10
+              span.list-text
+                | Drop photo to attach, or
+                a(href='#').col-lime browse
+      .modal-footer-inventor
+        button.btn.btn-inventor.btn-white
+          img(src="/images/cancel.svg" class="header-plus" alt="cancel")
+          span.title-header-btn Cancel
+        button.btn.btn-inventor.btn-lime
+          img(src="/images/plus.svg" class="header-plus" alt="plus")
+          span.title-header-btn Add Item
+

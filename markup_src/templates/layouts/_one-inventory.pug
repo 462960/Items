@@ -1,0 +1,238 @@
+.wrap-inventory-block.wrap-inventory-block--one-inventory
+  .wrap-top-row-one-inventory.m-b-15
+    table.table-inventor.table-one-invectory-left
+      thead.table-head
+        tr
+          th(scope='col').posr
+            .style-btn-table.line-h-2 Scan Details
+
+          th(scope='col')
+            button.wrap-row.wrap-row-hov
+              svg.svg-gear.svg-gear--gray: use(xlink:href="/images/sprite.svg#gear-new")
+
+
+      tbody
+        tr
+          td Table
+          td Arm chear
+
+
+        tr
+          td Air max
+          td Air max 1
+
+
+        tr
+          td Black gold
+          td White gold
+
+
+        tr
+          td Black gold
+          td White gold
+
+    .block-one-invectory-right
+      .container.h-100
+        .row.bord-b-gray
+          .col-5
+            .row.mb-10-inp
+              label.col-5.list-text Total Count*
+              .col-7.posr.df-sb
+                button.style-btn-non.btn-icon--plus +
+                input.form-control.form-control-sm.ta-c.input-coner(type='text', placeholder='1')
+                button.style-btn-non.btn-icon--minus &#8211;
+            .row.mb-10-inp
+              label.col-5.list-text Update Status
+              .col-7.posr
+                input.form-control.form-control-sm(type='text', placeholder='Select')
+                svg.svg-down-arrow-black.arrow-abs: use(xlink:href="/images/sprite.svg#down-arrow")
+            .row.mb-10-inp
+              label.col-5.list-text Update Location
+              .col-7.posr
+                input.form-control.form-control-sm(type='text', placeholder='Select')
+                svg.svg-down-arrow-black.arrow-abs: use(xlink:href="/images/sprite.svg#down-arrow")
+          .col-7.h-100
+            .row
+              label.col-3.list-text Edit Comment
+              .col
+                textarea.form-control.form-control-sm.textar-h(type='text', placeholder='Введите Ваш коментарий...',resize='none', rows="10")
+        .df-sb.pad-t-10
+          button.btn.btn-inventor.btn-white.btn-inventor--int
+            svg.svg-reload: use(xlink:href="/images/sprite.svg#reload")
+            span.title-header-btn.m-r-10.m-l-10 Reset
+
+          button.btn.btn-inventor.btn-white.btn-inventor--int
+            svg.svg-bookmark: use(xlink:href="/images/sprite.svg#add")
+            span.title-header-btn.m-r-10.m-l-10 Add Item
+
+
+
+  .wrap-top-row-colaborator.posr
+    .wrap-df.posr
+      input(type='text',placeholder='Searsh...').input-inventory.m-r-10
+      img(src="/images/small-lupe.svg" class="lupe-abs" alt="page")
+      button.btn.btn-inventor.btn-white
+        //img(src="/images/page.svg" alt="page").m-r-10
+        svg.svg-bookmark: use(xlink:href="/images/sprite.svg#bookmark")
+        span.title-header-btn.m-r-10.m-l-10 Download report
+        svg.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+    .wrap-main-tooltip.posr
+      button.wrap-row.wrap-row-hov
+        svg.svg-gear: use(xlink:href="/images/sprite.svg#gear-new").m-r-10
+        //img(src="/images/gear.png" class="gear" alt="gear-icon").m-r-10
+        span.custom-text Customize columns
+      .tooltip-items
+        .tooltip-items-header
+          .tooltip-items-header-title Show columns
+          .tooltip-items-header-close
+            span.m-r-10 Close
+            button.style-btn-non
+              svg.svg-cancel: use(xlink:href="/images/sprite.svg#delete")
+        .tooltip-items-content
+          ul
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Name
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Barcode
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Serial Number
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Place
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Department
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Collaborator
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Status
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Total count
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Date
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+
+
+  table.table-inventor.table-head-one-inventory
+    thead.table-head
+      tr
+        th(scope='col').posr
+          button.style-btn-table Title
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Description
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Barcode
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Location
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Status
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Required Count
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Count
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Missing
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Extra
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+    tbody
+      tr
+        td Table
+        td Arm chear
+        td 1234567890
+        td Dinner-room
+        td in using
+        td 1
+        td 3
+        td 13
+        td 4
+      tr
+        td Air max
+        td Air max 1
+        td 1234567890
+        td Dinner-room
+        td in using
+        td 0
+        td 34
+        td 45
+        td 3
+      tr
+        td Black gold
+        td White gold
+        td 1234567890
+        td Dinner-room
+        td in using
+        td 34
+        td 5
+        td 3
+        td 5
+      tr
+        td Magic frog
+        td Cat-dog
+        td 1234567890
+        td Dinner-room
+        td in using
+        td 78
+        td 23
+        td 4
+        td 3
+      tr
+        td Yellow submarine
+        td Kursk
+        td 1234567890
+        td Dinner-room
+        td in using
+        td 12
+        td 4
+        td 54
+        td 2
+
+
+
+
+
+
+
+
+

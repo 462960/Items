@@ -1,0 +1,13 @@
+.eays-login {
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+}
+
+@media screen and (max-width: $w-m) {
+  .logo-login {
+    width: 220px;
+  }
+}

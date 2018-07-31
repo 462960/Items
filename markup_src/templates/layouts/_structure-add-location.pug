@@ -1,0 +1,26 @@
+.wrap-modal
+  .modal-content-inventor
+    .modal-header-inventor
+      span.modal-title-inventor Add location
+    .modal-body-inventor.container
+      .row.mb-10
+        label.col-3.list-text Name
+        .col-9
+          input.form-control.form-control-sm(type='text', placeholder='Enter')
+      .row.mb-10
+        label.col-3.list-text Description
+        .col-9
+          input.form-control.form-control-sm(type='text', placeholder='Enter')
+      .row.mb-10
+        label.col-3.list-text Collaborators
+        .col-9.posr
+          input.form-control.form-control-sm.pr-50(type='text', placeholder='Enter')
+          img(src="/images/cancel.svg" class="cancel-structure" alt="icon-error-input")
+    .modal-footer-inventor
+      button.btn.btn-inventor.btn-white
+        img(src="/images/cancel.svg" class="header-plus" alt="cancel")
+        span.title-header-btn Cancel
+      button.btn.btn-inventor.btn-lime
+        img(src="/images/plus.svg" class="header-plus" alt="plus")
+        span.title-header-btn Add location
+

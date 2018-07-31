@@ -1,0 +1,191 @@
+.modal-content-inventor {
+  pointer-events: auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 95vh;
+  overflow: auto;
+  transform: translateY(0);
+  transition: transform .3s;
+
+  &.-no-overflow {
+    overflow: unset;
+  }
+
+  &.-hidden {
+    transform: translateY(-100vh);
+  }
+}
+
+.modal-content-inventor--small {
+  max-width: 450px;
+}
+
+.modal-header-inventor {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.modal-title-inventor {
+  color: #67747e;
+  font-family: $font-default;
+  font-size: 16px;
+}
+
+.modal-title-inventor--red {
+  color: #ff5357;
+}
+
+.modal-footer-inventor {
+  padding: 0 20px 30px;
+  border: none;
+  text-align: right;
+
+  button {
+    margin-left: 5px;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+
+  @media (max-height: 767px) {
+    padding-bottom: 10px;
+  }
+}
+
+.modal-footer-inventor--centr {
+  text-align: center;
+}
+
+.modal-body-inventor {
+  padding: 30px 20px;
+  position: relative;
+
+  &.-empty {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.form-control {
+  height: 30px;
+  font-size: 12px;
+  font-family: $font-default;
+  color: rgb(73, 80, 87);
+}
+
+.form-control-sm {
+  font-size: 13px;
+  font-family: $font-default;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.list-text {
+  font-size: 13px;
+  font-family: $font-default;
+  color: #8695a1;
+  line-height: 2.3;
+}
+
+.list-text--small {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.list-text-top {
+  display: flex;
+  align-items: flex-start;
+  font-size: 13px;
+  font-family: $font-default;
+  color: $main-color;
+}
+
+.form-control-photo {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  border: 1px dashed #d9dfe2;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border .2s, background-color .2s;
+
+  @media all and (max-height: 850px) {
+    height: 90px;
+  }
+
+  &.active {
+    border: 2px solid $green-primary;
+    background-color: #DCE0E3;
+  }
+}
+
+.wrap-scanner {
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  top: 7px;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  color: $green-primary;
+}
+
+.row {
+  label {
+    margin-bottom: 0;
+  }
+}
+
+.cancel-structure {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+.modal-small-text {
+  font-family: $font-default;
+  color: $main-color;
+  font-size: 11px;
+
+  span {
+    color: $green-primary;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+
+// Top info messenger
+.top-info-messenger{
+  overflow: hidden;
+  padding: 20px;
+color: #ffffff;
+font-family: $font-default;
+font-size: 16px;
+font-weight: 600;
+text-align: center;
+.close-button{
+  float: right;
+  margin-top: 5px;
+}
+}
+
+.success{
+  background: $green-primary;
+}
+.fail{
+  background-color: #ff5252;
+}
+
+@media screen and (max-width: $w-m) {
+  .list-text {
+    font-size: 11px;
+  }
+}

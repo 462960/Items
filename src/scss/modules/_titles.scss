@@ -1,0 +1,57 @@
+.wrap-title-login {
+  text-align: center;
+}
+
+.title-login {
+  font-size: 1.5rem;
+  color: #000;
+  font-family: $font-default;
+}
+
+.big-number {
+  color: #67747e;
+  font-size: 32px;
+  font-family: $font-default;
+}
+
+.title-mk {
+  font-family: $font-default;
+  font-size: 16px;
+  color: #616e79;
+}
+
+.title-mk--light {
+  font-family: $font-default;
+  font-size: 16px;
+  color: #8695a1;
+}
+
+.title-list {
+  font-family: $font-default;
+  font-size: 16px;
+  color: #616e79;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width: $w-m) {
+  .title-list {
+    font-size: 15px;
+  }
+
+  .title-mk {
+    font-size: 14px;
+  }
+
+  .title-mk--light {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: $w-s) {
+  .title-mk--light {
+    font-size: 13px;
+  }
+}

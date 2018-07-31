@@ -1,0 +1,20 @@
+.wrap-login
+  .container.-wide.container.h-100
+    .row.h-100
+      .col.fl-column-c
+        .wrap-login-logo
+          img(src="/images/logo-login.png" class="logo-login" alt="logo-login")
+        form.form.fg-w
+          div.form-group.mb-inp
+            input#email.form-control.invalid(type='email' name='email' placeholder='Email')
+            span.error * Пожалуйста введите валидный email
+          div.form-group.mb-inp
+            input#pw.form-control(type='password' name='password' placeholder='Password')
+            img(src="/images/eye.png" class="eays-login" alt="eays-login")
+            //span.error * Пожалуйста введите валидный пароль
+          div.form-group
+            button.btn.btn-login.w-100 Sign In
+          div.form-group.m-b-0
+            div.wrap-text-login
+              a(href="#").login-text Forgot password?
+

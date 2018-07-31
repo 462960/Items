@@ -1,0 +1,107 @@
+.coffee-spinner {
+  width: 20px;
+  height: 24px;
+  border: 2px solid $green-primary;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+  margin: 36px auto;
+
+  &::before,
+  &::after {
+    position: absolute;
+    content: '';
+  }
+
+  &::before {
+    width: 2px;
+    height: 6px;
+    background-color: $green-primary;
+    top: -10px;
+    left: 2px;
+    box-shadow: 5px 0 0 0 $green-primary, 5px -5px 0 0 $green-primary, 10px 0 0 0 $green-primary;
+    animation: coffee-spinner 1s linear infinite alternate;
+  }
+
+  &::after {
+    width: 5px;
+    height: 12px;
+    border: 2px $green-primary solid;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    left: 19px;
+  }
+}
+
+@keyframes coffee-spinner {
+  from {
+    height: 0;
+  }
+
+  to {
+    height: 6px;
+  }
+}
+
+.progress-bar { 
+  height: 20px;
+  width: 250px;
+	position: relative;
+	border-radius: 25px;
+	padding: 10px;
+  box-sizing: content-box;
+}
+
+.progress-bar > span {
+  transition: width .3s;
+  display: block;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgb(43,194,83);
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bar > span:after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-image: linear-gradient(
+    -45deg, 
+    rgba(255, 255, 255, .2) 25%, 
+    transparent 25%, 
+    transparent 50%, 
+    rgba(255, 255, 255, .2) 50%, 
+    rgba(255, 255, 255, .2) 75%, 
+    transparent 75%, 
+    transparent
+  );
+  z-index: 1;
+  background-size: 50px 50px;
+  animation: move 2s linear infinite;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+}
+
+.progress-bar > span:after, .animate > span > span {
+  animation: move 2s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}

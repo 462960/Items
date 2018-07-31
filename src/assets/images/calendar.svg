@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="49px" viewBox="0 0 48 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M33.561,17.283 C33.561,16.502 32.915,15.855 32.133,15.855 L30.706,15.855 L30.706,14.784 C30.706,13.803 29.903,13 28.921,13 L28.207,13 C27.225,13 26.422,13.803 26.422,14.784 L26.422,15.855 L22.139,15.855 L22.139,14.784 C22.139,13.803 21.336,13 20.354,13 L19.641,13 C18.659,13 17.856,13.803 17.856,14.784 L17.856,15.855 L16.428,15.855 C15.647,15.855 15,16.502 15,17.283 L15,31.56 C15,32.342 15.647,32.988 16.428,32.988 L32.133,32.988 C32.915,32.988 33.561,32.342 33.561,31.56 L33.561,17.283 Z M29.278,17.997 C29.278,18.198 29.122,18.354 28.921,18.354 L28.207,18.354 C28.006,18.354 27.85,18.198 27.85,17.997 L27.85,14.784 C27.85,14.584 28.006,14.428 28.207,14.428 L28.921,14.428 C29.122,14.428 29.278,14.584 29.278,14.784 L29.278,17.997 Z M20.711,17.997 C20.711,18.198 20.555,18.354 20.354,18.354 L19.641,18.354 C19.44,18.354 19.284,18.198 19.284,17.997 L19.284,14.784 C19.284,14.584 19.44,14.428 19.641,14.428 L20.354,14.428 C20.555,14.428 20.711,14.584 20.711,14.784 L20.711,17.997 Z M16.428,31.56 L32.133,31.56 L32.133,20.138 L16.428,20.138 L16.428,31.56 Z M29.535,23.752 C29.668,23.607 29.668,23.384 29.535,23.25 L29.021,22.738 C28.887,22.603 28.665,22.603 28.519,22.738 L23.567,27.69 L21.113,25.236 C20.968,25.102 20.745,25.102 20.611,25.236 L20.098,25.749 C19.964,25.883 19.964,26.106 20.098,26.251 L23.311,29.464 C23.455,29.597 23.678,29.597 23.823,29.464 L29.535,23.752 Z" id="path-1"></path>
+        <filter x="-121.2%" y="-112.6%" width="342.4%" height="325.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.48627451   0 0 0 0 0.835294118   0 0 0 0 0.262745098  0 0 0 0.35 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_planning_active" transform="translate(0.000000, 2.000000)">
+            <g id="Fill-1">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#7CD543" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

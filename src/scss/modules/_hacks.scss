@@ -1,0 +1,406 @@
+.container {
+  &.-wide {
+    max-width: 1820px;
+  }
+  &.-h-80 {
+    height: 80px;
+  }
+  &.-h-100 {
+    height: 100px;
+  }
+  &.-hack-h-04 {
+    height: 86vh;
+  }
+  &.-hack-h-w {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.fl-column-c {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mt-btn-log {
+  margin-top: 20px;
+}
+
+.posr {
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-c {
+  display: flex;
+  justify-content: center;
+}
+
+.d-flex-c--c {
+  display: flex;
+  flex-flow: column;
+}
+
+.jc-fl-end {
+  justify-content: flex-end;
+}
+
+.ma-w-log {
+  max-width: 360px;
+}
+
+.mb-inp {
+  margin-bottom: 30px;
+}
+
+.mb-inp-small {
+  margin-bottom: 3px;
+}
+
+.m-b-0 {
+  margin-bottom: 0;
+}
+
+.pad-0 {
+  padding: 0 !important;
+}
+
+.pad-l-20 {
+  padding-left: 20px;
+}
+
+.w-100prc {
+  width: 100%;
+}
+
+.t-over-e {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lst-none {
+  list-style-type: none;
+}
+
+.color-main {
+  color: $main-color;
+}
+
+.clr-blck {
+  color: #616e79;
+}
+
+.font-default {
+  font-family: $font-default;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-10-inp {
+  margin-bottom: 10px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.m-l-2 {
+  margin-left: 2px;
+}
+
+.m-r-2 {
+  margin-right: 2px;
+}
+
+.m-r-5 {
+  margin-right: 5px;
+}
+
+.m-r-10 {
+  margin-right: 10px;
+}
+
+.m-r-30 {
+  margin-right: 30px;
+}
+
+.m-l-10 {
+  margin-left: 10px;
+}
+
+.col-lime {
+  color: $green-primary;
+}
+
+.pr-100 {
+  padding-right: 100px;
+}
+
+.pr-50 {
+  padding-right: 50px;
+}
+
+.ta-r {
+  text-align: right;
+}
+
+.lupe-abs {
+  left: 15px;
+  top: 30%;
+  position: absolute;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.df-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-h-2 {
+  line-height: 2;
+}
+
+.bord-b-gray {
+  border-bottom: 1px solid #e5eaee;
+  padding-bottom: 5px;
+}
+
+.bord-b-gray--colab {
+  border-bottom: 1px solid #e5eaee;
+}
+
+.pad-t-10 {
+  padding-top: 10px;
+}
+
+.arrow-abs {
+  position: absolute;
+  right: 25px;
+  top: 10px;
+}
+
+.psa {
+  position: absolute;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.planning-row-h {
+  height: 70vh;
+}
+
+.bord-r {
+  border-right: 2px solid #e5eaee;
+}
+
+.df-cc {
+  display: flex;
+  align-items: center;
+}
+
+.df-col {
+  display: flex;
+  flex-flow: column;
+}
+
+.info-block {
+  display: flex;
+  align-items: center;
+}
+
+.p-l-0 {
+  padding-left: 0;
+}
+
+.p-r-0 {
+  padding-right: 0;
+}
+
+.p-t-0 {
+  padding-top: 0;
+}
+
+.money-pb {
+  padding-bottom: 30px;
+}
+
+.al-i-fl-end {
+  align-items: flex-end;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.info-block {
+  .text-list {
+    color: #c6ced5;
+  }
+}
+
+.p-r-50 {
+  padding-right: 50px;
+}
+
+
+.p-t-back {
+  padding-top: 8px !important;
+}
+
+.line-h-1 {
+  line-height: 1;
+}
+
+.p-b-10-colaborator {
+  padding-bottom: 10px;
+}
+
+.p-t-10-colaborator {
+  padding-top: 10px;
+}
+
+.col-2 {
+  white-space: nowrap !important;
+}
+
+
+
+
+//Это удалить!!! Это для демонстрации!!!--------или нет смотреть по ситуации это столбики для таблицы стр оплаты
+.hack-25 {
+  width: 25% !important;
+}
+
+
+@media screen and (max-width: $w-l) {
+  .container {
+    &.-wide {
+       max-width: 1740px;
+       width: 95%;
+    }
+
+    &.-h-80 {
+       height: 80px;
+    }
+
+    &.-hack-h-04 {
+       height: 86vh;
+    }
+  }
+
+
+}
+
+@media screen and (max-width: $w-m) {
+  .container {
+     &.-wide {
+       max-width: 1540px;
+       width: 95%;
+     }
+     &.-h-80 {
+       height: 80px;
+     }
+     &.-hack-h-04 {
+       height: 86vh;
+     }
+  }
+
+  .ma-w-log {
+    max-width: 270px;
+  }
+
+  .mt-btn-log {
+    margin-top: 15px;
+  }
+
+  .mb-inp {
+    margin-bottom: 20px;
+  }
+
+  .mb-inp-small {
+    margin-bottom: 2px;
+  }
+
+  .mb-10-inp {
+    margin-bottom: 5px;
+  }
+
+  .planning-row-h {
+    height: 67vh;
+  }
+
+  .money-pb {
+    padding-bottom: 20px;
+  }
+
+  .p-b-10-colaborator {
+    padding-bottom: 7px;
+  }
+
+  .p-t-10-colaborator {
+    padding-top: 7px;
+  }
+
+  .lupe-abs {
+    top: 20%;
+  }
+}
+
+
+@media screen and (max-width: $w-s) {
+  .planning-row-h {
+    height: 62vh;
+
+  }
+
+  .money-pb {
+    padding-bottom: 15px;
+  }
+
+  .p-b-10-colaborator {
+    padding-bottom: 5px;
+  }
+
+  .p-t-10-colaborator {
+    padding-top: 5px;
+  }
+}
+
+*:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}

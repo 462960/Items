@@ -1,0 +1,248 @@
+.form-group {
+  position: relative;
+}
+
+.fg-w {
+  width: 100%;
+  max-width: 360px;
+}
+
+.form-control {
+  border-radius: 6px;
+  position: relative;
+  &.invalid {
+    border: 1px solid red;
+  }
+}
+
+.wrap-login-logo {
+  margin-bottom: 36px;
+}
+
+.error {
+  color: #da564c;
+  font-size: 0.625rem;
+  position: absolute;
+  left: 0;
+  top: 35px;
+  line-height: 1;
+  $margin: 10px;
+  top: -5px;
+  left: $margin;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 2 * #{$margin});
+  background: white;
+  padding: 0 5px;
+  user-select: none;
+
+  &.static {
+    position: static;
+  }
+}
+
+textarea.textar-h {
+  min-height: 110px;
+  resize: none;
+}
+
+.input-coner {
+  border-radius: 0;
+}
+
+.form-control-checkbox {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 0;
+
+  input[type=checkbox] {
+    display: none;
+  }
+
+  &.disabled {
+    pointer-events: none;
+
+    .pseudocheckbox {
+      &::after {
+        background-color: gainsboro;
+      }
+
+      &::before {
+        color: #808080;
+        background-color: gainsboro;
+        opacity: .5;
+      }
+    }
+  }
+
+  .pseudocheckbox {
+    position: relative;
+
+    &::before,
+    &::after {
+      box-sizing: border-box;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #ababab;
+      border-radius: 3px;
+
+    }
+
+    &::before {
+      content: "\00A0";
+      display: inline-block;
+      background-color: transparent;
+      transition: border-color .3s ease-in;
+    }
+  
+    &::after {
+      opacity: 0;
+      content: "";
+      border-color: #7cd543;
+      background-color: #7cd543;
+      background-image: url("/images/ic_check_white.svg");
+      transition: opacity .3s ease-out;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    @media screen and (max-width: 1550px) {
+      &::before,
+      &::after {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+  input[type=checkbox]:checked + .pseudocheckbox {
+
+    &::before {
+      border-color: transparent;
+    }
+
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-width: $w-m) {
+  .fg-w {
+    max-width: 270px;
+  }
+
+  textarea.textar-h {
+    min-height: 90px;
+  }
+}
+
+.add-item-input {
+  position: relative;
+
+  &.disabled {
+    pointer-events: none;
+  }
+
+  .add-item-list{
+    position: absolute;
+    width: calc(100% - 30px);
+    max-height: 170px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 16px 16px 0 16px;
+    overflow: auto;
+  }
+}
+
+// Psevdo checkbox and label styles
+   .pseudo-checkbox-holder{ 
+      overflow: hidden;
+      margin-bottom: 16px;
+    .pseudo-checkbox{
+      cursor: pointer;
+      position: relative;
+      /* Style for "checkbox" */
+width: 20px;
+height: 20px;
+border-radius: 3px;
+border: 1px solid #bbc5cd;
+float: left;
+  .svg-checkmark{
+    position: absolute;
+    top: 5px;
+    left: 3px;
+    pointer-events: none;
+  }
+
+    }
+    .title, .sub-title {
+      padding-left: 10px;
+      color: #616e79;
+      font-family: Montserrat;
+      font-size: 13px;
+      font-weight: 400;
+    }
+    .sub-title{
+      color: #bbc5cd;
+    }
+    }
+
+    .notifications-holder {
+      .title, .sub-title {
+        padding-left: 40px;
+      }
+    }
+
+// .add-item-input transition
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 600ms ease-in;
+}
+
+// Select inputs custom arrow
+.select-custom-arrow {
+   -webkit-appearance: none;
+  -moz-appearance: none;
+appearance: none;
+background: url("/images/down-arrow-gray.svg") no-repeat;
+background-position: 98% 50%;
+}
+
+.react-calendar {
+  font-family: $font-default;
+}
+
+.react-calendar__tile--active {
+  background: $green-primary !important;
+}
+
+.add_task-notification {
+  position: absolute;
+  color: red;
+  text-align: center;
+  top: 4px;
+  left: 40%;
+}
+
+.datepicker-clear {
+  position: absolute;
+  cursor: pointer;
+  top: 9px;
+  right: 12px;
+  height: 10px;
+  width: 10px;
+  background: url("/images/cancel-thin-gray.svg") no-repeat;
+}
+
+
+
+

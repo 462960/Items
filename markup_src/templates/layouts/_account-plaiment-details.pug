@@ -1,0 +1,232 @@
+.wrap-inventory-block.wrap-inventory-block--account
+  .wrap-top-row-one-inventory
+    ul.list-table
+      li
+        a
+          .text-list Items
+            button.wrap-row.wrap-row-hov
+              svg.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#right-arrow")
+      li
+        a
+          .text-list Departments
+            button.wrap-row.wrap-row-hov
+              svg.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#right-arrow")
+      li
+        a
+          .text-list Collaborators
+            button.wrap-row.wrap-row-hov
+              svg.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#right-arrow")
+      li
+        a
+          .text-list Inventories
+            button.wrap-row.wrap-row-hov
+              svg.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#right-arrow")
+      li
+        a
+          .text-list Directories
+            button.wrap-row.wrap-row-hov
+              svg.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#right-arrow")
+      li
+        a
+          .text-list Notifiacation
+            button.wrap-row.wrap-row-hov
+              svg.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#right-arrow")
+      li
+        a
+          .text-list Tasks
+            button.wrap-row.wrap-row-hov
+              svg.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#right-arrow")
+      li
+        a
+          .text-list History
+            button.wrap-row.wrap-row-hov
+              svg.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#right-arrow")
+    .col-9
+      .row.ml-0.money-pb
+        .col-4.white-block.m-r-10.m-b-10.posr
+          .info-block.p-b-30
+            .p-r-10
+              img(src="/images/mastercard.png" class="header-plus" alt="master-card")
+            div
+              span.title-mk Mastercard **** 9865
+              span.text-list Expires 01/19
+
+          .ta-r
+            button.btn.btn-inventor.btn-white
+              img(src="/images/cart.svg" class="header-plus" alt="cart")
+              span.title-header-btn Delete
+            button.btn.btn-inventor.btn-white
+              img(src="/images/pensil.svg" class="header-plus" alt="pensil")
+              span.title-header-btn Edit
+          .lime-show
+            img(src="/images/money.png" class="money" alt="money").m-r-10
+            span.text-lime Add payment method
+        .col-4.white-block.posr.m-b-10.m-r-10.non-show
+          .info-block.p-b-30
+            .p-r-10
+              img(src="/images/mastercard.png" class="header-plus" alt="master-card")
+            div
+              span.title-mk Mastercard **** 9865
+              span.text-list Expires 01/19
+
+          .ta-r
+            button.btn.btn-inventor.btn-white
+              img(src="/images/cart.svg" class="header-plus" alt="cart")
+              span.title-header-btn Delete
+            button.btn.btn-inventor.btn-white
+              img(src="/images/pensil.svg" class="header-plus" alt="pensil")
+              span.title-header-btn Edit
+          .lime-show
+            img(src="/images/money.png" class="money" alt="money").m-r-10
+            span.text-lime Add payment method
+        //.col-5
+        //  p two
+
+
+      .wrap-top-row-colaborator.posr
+        .wrap-df.posr
+          input(type='text',placeholder='Searsh...').input-inventory.m-r-10
+          img(src="/images/small-lupe.svg" class="lupe-abs" alt="page")
+        .wrap-main-tooltip.posr
+          button.wrap-row.wrap-row-hov
+            svg.svg-gear: use(xlink:href="/images/sprite.svg#gear-new").m-r-10
+            //img(src="/images/gear.png" class="gear" alt="gear-icon").m-r-10
+            span.custom-text Customize columns
+          .tooltip-items
+            .tooltip-items-header
+              .tooltip-items-header-title Show columns
+              .tooltip-items-header-close
+                span.m-r-10 Close
+                button.style-btn-non
+                  svg.svg-cancel: use(xlink:href="/images/sprite.svg#delete")
+            .tooltip-items-content
+              ul
+                li
+                  .tooltip-items-content-list-left
+                    .tooltip-items-content-list-round.m-r-10
+                    .tooltip-items-content-list-title Name
+                  button.style-btn-non.tooltip-items-content-list-burger
+                    img(src="/images/burger.svg" alt="burger")
+                li
+                  .tooltip-items-content-list-left
+                    .tooltip-items-content-list-round.m-r-10
+                    .tooltip-items-content-list-title Barcode
+                  button.style-btn-non.tooltip-items-content-list-burger
+                    img(src="/images/burger.svg" alt="burger")
+                li
+                  .tooltip-items-content-list-left
+                    .tooltip-items-content-list-round.m-r-10
+                    .tooltip-items-content-list-title Serial Number
+                  button.style-btn-non.tooltip-items-content-list-burger
+                    img(src="/images/burger.svg" alt="burger")
+                li
+                  .tooltip-items-content-list-left
+                    .tooltip-items-content-list-round.m-r-10
+                    .tooltip-items-content-list-title Place
+                  button.style-btn-non.tooltip-items-content-list-burger
+                    img(src="/images/burger.svg" alt="burger")
+                li
+                  .tooltip-items-content-list-left
+                    .tooltip-items-content-list-round.m-r-10
+                    .tooltip-items-content-list-title Department
+                  button.style-btn-non.tooltip-items-content-list-burger
+                    img(src="/images/burger.svg" alt="burger")
+                li
+                  .tooltip-items-content-list-left
+                    .tooltip-items-content-list-round.m-r-10
+                    .tooltip-items-content-list-title Collaborator
+                  button.style-btn-non.tooltip-items-content-list-burger
+                    img(src="/images/burger.svg" alt="burger")
+                li
+                  .tooltip-items-content-list-left
+                    .tooltip-items-content-list-round.m-r-10
+                    .tooltip-items-content-list-title Status
+                  button.style-btn-non.tooltip-items-content-list-burger
+                    img(src="/images/burger.svg" alt="burger")
+                li
+                  .tooltip-items-content-list-left
+                    .tooltip-items-content-list-round.m-r-10
+                    .tooltip-items-content-list-title Total count
+                  button.style-btn-non.tooltip-items-content-list-burger
+                    img(src="/images/burger.svg" alt="burger")
+                li
+                  .tooltip-items-content-list-left
+                    .tooltip-items-content-list-round.m-r-10
+                    .tooltip-items-content-list-title Date
+                  button.style-btn-non.tooltip-items-content-list-burger
+                    img(src="/images/burger.svg" alt="burger")
+
+
+      table.table-inventor
+        thead.table-head
+          tr
+            th(scope='col').posr.hack-25
+              button.style-btn-table Name
+                img(src="/images/arrow-down.svg" class="table-filter" alt="filter")
+            th(scope='col').posr.hack-25
+              button.style-btn-table Barcode
+                img(src="/images/arrow-down.svg" class="table-filter" alt="filter")
+            th(scope='col').posr.hack-25
+              button.style-btn-table Serial Number
+                img(src="/images/arrow-down.svg" class="table-filter" alt="filter")
+            th(scope='col').posr.hack-25
+              button.style-btn-table Location
+                img(src="/images/arrow-down.svg" class="table-filter" alt="filter")
+
+        tbody
+          tr
+            td Rubber doll
+            td 12345678
+            td 1234567890/
+            td Аркадий Себастьянович
+
+          tr
+            td Rubber doll
+              td 12345678
+              td 1234567890/
+              td Аркадий Себастьянович
+          tr
+            td Rubber doll
+              td 12345678
+              td 1234567890/
+              td Аркадий Себастьянович
+          tr
+            td Rubber doll
+              td 12345678
+              td 1234567890/
+              td Аркадий Себастьянович
+          tr
+            td Rubber doll
+              td 12345678
+              td 1234567890/
+              td Аркадий Себастьянович
+
+
+        tfoot.table-foot
+          tr
+            td(colspan='2') Displaying 1 to 20 of 235 collaborators
+            td(colspan='2')
+              //.wrap-pagination
+              .ta-r
+                button.colaborator-pagination-round-btn.m-r-5
+                  img(src="/images//left-arrow.svg" class="left-arrow" alt="left")
+                span.header-text.m-r-5 Page
+                input(type='text',placeholder='1').colaborator-pagination-white-window.m-r-5
+                span.header-text.m-r-5 of 4
+                button.colaborator-pagination-round-btn
+                  img(src="/images//right-arrow.svg" class="right-arrow" alt="right")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

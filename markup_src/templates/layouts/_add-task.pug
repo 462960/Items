@@ -1,0 +1,80 @@
+.wrap-modal
+  .modal-content-inventor
+    .modal-header-inventor
+      span.modal-title-inventor Add task
+    .modal-body-inventor.container
+      .row.mb-10
+        label.col-3.list-text Title
+        .col-9
+          input.form-control.form-control-sm(type='text', placeholder='Enter')
+      .row.mb-10
+        label.col-3.list-text Description
+        .col-9
+          input.form-control.form-control-sm(type='text', placeholder='Enter')
+      .row.mb-10
+        label.col-3.list-text Date
+        .col-9
+          input#format.span2.form-control.form-control-sm(name='format', type='text', placeholder='mm/dd/yyyy')
+
+      .row.mb-10
+        label.col-3.list-text Deadline
+        .col-9
+          input#format.span2.form-control.form-control-sm(name='format', type='text', placeholder='mm/dd/yyyy')
+      .row.mb-10
+        label.col-3.list-text Assignee
+        .col-9.posr
+          select.form-control.form-control-sm
+            option Select
+            option Контора Никанора
+            option Шарашкина контора
+            option Контора "Рога и Копыта"
+      .row.mb-10
+        label.col-3.list-text Status
+        .col-9.posr
+          select.form-control.form-control-sm
+            option Select
+            option Контора Никанора
+            option Шарашкина контора
+            option Контора "Рога и Копыта"
+      .row.mb-10
+        label.col-3.list-text Inventory
+        .col-9.posr
+          select.form-control.form-control-sm
+            option Select
+            option Контора Никанора
+            option Шарашкина контора
+            option Контора "Рога и Копыта"
+      .row.mb-10
+        label.col-3.list-text
+        .col-3.posr.p-r-0
+          select.form-control.form-control-sm
+            option Notification
+            option Контора Никанора
+            option Шарашкина контора
+            option Контора "Рога и Копыта"
+        .col-1
+          input(type='text',placeholder='1').form-control
+
+        .col-3.posr.p-l-0
+          select.form-control.form-control-sm
+            option minutes
+            option Контора Никанора
+            option Шарашкина контора
+            option Контора "Рога и Копыта"
+        .col-1.p-l-0
+          button.style-btn-non
+            img(src="/images/cancel-lime.svg" class="header-plus" alt="cancel")
+      .row.mb-10
+        label.col-3.list-text
+        .col-9.posr
+          button.style-btn-non
+            svg.svg-lime-plus: use(xlink:href="/images/sprite.svg#add")
+            span.m-l-10.text-lime  Add notification
+    .modal-footer-inventor
+      button.btn.btn-inventor.btn-white
+        img(src="/images/cancel.svg" class="header-plus" alt="cancel")
+        span.title-header-btn Cancel
+      button.btn.btn-inventor.btn-lime
+        img(src="/images/plus.svg" class="header-plus" alt="plus")
+        span.title-header-btn Create task
+

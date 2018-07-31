@@ -1,0 +1,381 @@
+.btn {
+  display: inline-block;
+  border: 1px solid tomato;
+  color: #000;
+  background-color: tomato;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-family: $font-default;
+
+  &.btn-login {
+    background: $green-primary;
+    border-radius: 24px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    text-transform: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+    &:focus,
+    active {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+
+  &.btn-inventor {
+    text-transform: none;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 10px 20px;
+    font-family: $font-default;
+    cursor: pointer;
+
+    &:focus,
+    :active {
+      box-shadow: none;
+      outline: none;
+    }
+
+    &.btn-one {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    &.disabled {
+      cursor: not-allowed;
+    }
+  }
+
+  &.btn-lime {
+    color: #fff;
+    background: $green-primary;
+    border: 1px solid $green-primary;
+  }
+
+  &.btn-red {
+    color: #fff;
+  }
+
+  &.btn-white {
+    color: #8695a1;
+    background: #fff;
+    border: 1px solid #d9dfe2;
+  }
+}
+
+
+
+.btn-lime-line {
+  border: 1px solid $green-primary;
+  color: $green-primary;
+  background: #fff;
+  text-decoration: none;
+  border-radius: 24px;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  padding: 10px 33px;
+  font-family: $font-default;
+  cursor: pointer;
+}
+
+.colaborator-pagination-round-btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #c1cad0;
+  box-shadow: none;
+  cursor: pointer;
+  background: #fff;
+  display: inline-block;
+  vertical-align: middle;
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+
+  &.disabled {
+    background-color: #f2f2f2;
+  }
+}
+
+.wrap-row {
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.style-btn-non {
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.style-btn-table {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #79848c;
+  padding-left: 0;
+
+  &:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.btn-icon {
+  color: #dbe0e3;
+}
+
+.btn-icon--minus {
+  right: 20px;
+  background: #f5f7f8;
+  //height: 87%;
+  border: 1px solid #dbe0e3;
+  border-radius: 0 6px 6px 0;
+  width: 50px;
+  color: #dbe0e3;
+}
+
+.btn-icon--plus {
+  background: #f5f7f8;
+  //height: 87%;
+  border: 1px solid #dbe0e3;
+  border-radius: 6px 0 0 6px;
+  width: 50px;
+  color: #dbe0e3;
+}
+
+.btn-radio-account {
+  padding: 6px 15px;
+  background: #fff;
+  color: #cad1d6;
+  border: 1px solid #cad1d6;
+  font-size: 13px;
+  font-family: $font-default;
+
+  &:focus {
+    border: 1px solid #cad1d6;
+  }
+}
+
+.wrap-account-btn {
+  display: flex;
+}
+
+.wrap-account-btn button {
+  &:nth-child(1) {
+    border-radius: 6px 0 0 6px;
+  }
+
+  &:nth-child(2) {
+    border-radius: 0 6px 6px 0;
+  }
+
+  &.active {
+    color: #fff;
+    background: $green-primary;
+  }
+}
+
+.button-elips-lime {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 12px;
+  text-decoration: none;
+  background: $green-primary;
+  border-radius: 24px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-transform: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding-right: 33px;
+  padding-left: 33px;
+  font-family: $font-default;
+  vertical-align: middle;
+
+  &:focus,
+  active {
+    box-shadow: none;
+    outline: none;
+  }
+
+  &.btn-lime-line {
+    border: 1px solid $green-primary;
+    color: $green-primary;
+    background: #fff;
+    text-decoration: none;
+    border-radius: 24px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 10px 33px;
+    font-family: $font-default;
+    cursor: pointer;
+  }
+}
+
+.btn-standart {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: $font-default;
+  text-transform: none;
+  border-radius: 6px;
+  font-size: 13px;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: $main-color;
+  background: #fff;
+  border: 1px solid #d9dfe2;
+
+  &:focus,
+  active {
+    box-shadow: none;
+    outline: none;
+  }
+
+  &.btn-lime {
+    color: #fff;
+    background: $green-primary;
+    border: 1px solid $green-primary;
+  }
+
+  &.btn-red {
+    color: #fff;
+  }
+
+  &.btn-white {
+    color: $main-color;
+    background: #fff;
+    border: 1px solid #d9dfe2;
+  }
+
+  &.btn-one {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+button {
+  line-height: 1 !important;
+}
+
+
+@media screen and (max-width: $w-m) {
+  .colaborator-pagination-round-btn {
+    width: 22px;
+    height: 22px;
+
+    .left-arrow {
+      display: flex;
+      margin-top: 1px;
+    }
+
+    .right-arrow {
+      display: flex;
+      margin-top: 1px;
+    }
+  }
+
+  .btn-inventor--int {
+    padding: 3px 20px;
+  }
+
+  .btn {
+    &.btn-login {
+      font-size: 13px;
+    }
+  }
+
+  .btn {
+    &.btn-inventor {
+      padding: 5px 10px;
+    }
+  }
+
+  .button-elips-lime {
+    font-size: 13px;
+  }
+
+  .btn-standart {
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: $w-s) {
+  .colaborator-pagination-round-btn {
+    width: 17px;
+    height: 17px;
+
+    .left-arrow {
+      display: flex;
+      margin-top: 1px;
+    }
+
+    .right-arrow {
+      display: flex;
+      margin-top: 1px;
+    }
+  }
+
+  .btn {
+    &.btn-login {
+      font-size: 12px;
+    }
+  }
+
+  .button-elips-lime {
+    font-size: 12px;
+  }
+
+
+}
+
+button[disabled] {
+  cursor: not-allowed;
+}

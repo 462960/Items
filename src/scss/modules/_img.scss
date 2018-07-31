@@ -1,0 +1,60 @@
+.account-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.avatar-colaborator {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.big-delete {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: $w-m) {
+  .account-avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+  .avatar-colaborator {
+    width: 90px;
+    height: 90px;
+  }
+
+  .big-delete {
+    width: 14px;
+    margin-bottom: 0;
+  }
+
+  .message-icon {
+    width: 27px;
+  }
+
+  .box {
+    width: 23px;
+  }
+
+  .header-alarm {
+    width: 21px;
+  }
+}
+
+@media screen and (max-width: $w-s) {
+  .box {
+    width: 20px;
+  }
+
+  .header-alarm {
+    width: 20px;
+  }
+
+  .avatar-colaborator {
+    width: 80px;
+    height: 80px;
+  }
+}
+

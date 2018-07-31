@@ -1,0 +1,300 @@
+.wrap-inventory-block
+  .wrap-top-row-colaborator.posr
+    .wrap-df.posr
+      input(type='text',placeholder='Searsh...').input-inventory.m-r-10
+      img(src="/images/small-lupe.svg" class="lupe-abs" alt="page")
+      button.btn.btn-inventor.btn-lime.m-r-10
+        //img(src="/images/page.svg" alt="page").m-r-10
+        svg.svg-add: use(xlink:href="/images/sprite.svg#add")
+        span.title-header-btn.m-r-10.m-l-10 New inventory
+      button.btn.btn-inventor.btn-white
+        //img(src="/images/page.svg" alt="page").m-r-10
+        svg.svg-bookmark: use(xlink:href="/images/sprite.svg#bookmark")
+        span.title-header-btn.m-r-10.m-l-10 Import
+        svg.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+    .wrap-main-tooltip.posr
+      button.wrap-row.wrap-row-hov
+        svg.svg-gear: use(xlink:href="/images/sprite.svg#gear-new").m-r-10
+        //img(src="/images/gear.png" class="gear" alt="gear-icon").m-r-10
+        span.custom-text Customize columns
+      .tooltip-items
+        .tooltip-items-header
+          .tooltip-items-header-title Show columns
+          .tooltip-items-header-close
+            span.m-r-10 Close
+            button.style-btn-non
+              svg.svg-cancel: use(xlink:href="/images/sprite.svg#delete")
+        .tooltip-items-content
+          ul
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Name
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Barcode
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Serial Number
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Place
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Department
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Collaborator
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Status
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Total count
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+            li
+              .tooltip-items-content-list-left
+                .tooltip-items-content-list-round.m-r-10
+                .tooltip-items-content-list-title Date
+              button.style-btn-non.tooltip-items-content-list-burger
+                img(src="/images/burger.svg" alt="burger")
+
+
+  table.table-inventor.table-head-inventory
+    thead.table-head
+      tr
+        th(scope='col')
+          input(type='checkbox').checkbx-number
+        th(scope='col').posr
+          button.style-btn-table Title
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Assigne
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Description
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Start Date
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table End Date
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Planned End Date
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Location
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col').posr
+          button.style-btn-table Status
+            svg.table-filter.svg-down-arrow-black: use(xlink:href="/images/sprite.svg#down-arrow")
+        th(scope='col') Actions
+    tbody
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Inventory on the Contora Nickanora
+        td Radion Rodeonov
+        td Some description
+        td 01/07/2018
+        td 01/07/2018
+        td 01/07/2018
+        td Dinner-room
+        td active
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Inventory on the Contora Nickanora
+        td Radion Rodeonov
+        td Some description
+        td 01/07/2018
+        td 01/07/2018
+        td 01/07/2018
+        td Dinner-room
+        td active
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Inventory on the Contora Nickanora
+        td Radion Rodeonov
+        td Some description
+        td 01/07/2018
+        td 01/07/2018
+        td 01/07/2018
+        td Dinner-room
+        td active
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Inventory on the Contora Nickanora
+        td Radion Rodeonov
+        td Some description
+        td 01/07/2018
+        td 01/07/2018
+        td 01/07/2018
+        td Dinner-room
+        td active
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Inventory on the Contora Nickanora
+        td Radion Rodeonov
+        td Some description
+        td 01/07/2018
+        td 01/07/2018
+        td 01/07/2018
+        td Dinner-room
+        td active
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Inventory on the Contora Nickanora
+        td Radion Rodeonov
+        td Some description
+        td 01/07/2018
+        td 01/07/2018
+        td 01/07/2018
+        td Dinner-room
+        td active
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Inventory on the Contora Nickanora
+        td Radion Rodeonov
+        td Some description
+        td 01/07/2018
+        td 01/07/2018
+        td 01/07/2018
+        td Dinner-room
+        td active
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Inventory on the Contora Nickanora
+        td Radion Rodeonov
+        td Some description
+        td 01/07/2018
+        td 01/07/2018
+        td 01/07/2018
+        td Dinner-room
+        td active
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Inventory on the Contora Nickanora
+        td Radion Rodeonov
+        td Some description
+        td 01/07/2018
+        td 01/07/2018
+        td 01/07/2018
+        td Dinner-room
+        td active
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Inventory on the Contora Nickanora
+        td Radion Rodeonov
+        td Some description
+        td 01/07/2018
+        td 01/07/2018
+        td 01/07/2018
+        td Dinner-room
+        td active
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Inventory on the Contora Nickanora
+        td Radion Rodeonov
+        td Some description
+        td 01/07/2018
+        td 01/07/2018
+        td 01/07/2018
+        td Dinner-room
+        td active
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+      tr
+        th(scope='row')
+          input(type='checkbox').checkbx-number
+        td Inventory on the Contora Nickanora
+        td Radion Rodeonov
+        td Some description
+        td 01/07/2018
+        td 01/07/2018
+        td 01/07/2018
+        td Dinner-room
+        td active
+        td
+          button.style-btn-non
+            svg.svg-pen: use(xlink:href="/images/sprite.svg#pen-new")
+    tfoot.table-foot
+      tr
+        td(colspan='8') Displaying 1 to 20 of 235 collaborators
+        td(colspan='2')
+          //.wrap-pagination
+          .ta-r
+            button.colaborator-pagination-round-btn.m-r-5
+              img(src="/images//left-arrow.svg" class="left-arrow" alt="left")
+            span.header-text.m-r-5 Page
+            input(type='text',placeholder='1').colaborator-pagination-white-window.m-r-5
+            span.header-text.m-r-5 of 4
+            button.colaborator-pagination-round-btn
+              img(src="/images//right-arrow.svg" class="right-arrow" alt="right")
+
+
+
+

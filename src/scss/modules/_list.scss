@@ -1,0 +1,126 @@
+.planning-list-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  cursor: pointer;
+  &:hover .planning-list-marker {
+    background: $green-primary;
+  }
+  &:last-child {
+    padding-bottom: 5px;
+  }
+}
+
+.planning-list-marker {
+  width: 11px;
+  height: 11px;
+  background: #bbc5cd;
+  border-radius: 50%;
+  z-index: 1;
+  transition: all .3s;
+}
+
+.planning-list {
+  padding: 0;
+  margin: 0;
+  &::before {
+    background:#e5eaee;
+    content:"";
+    display:block;
+    left:5px;
+    top:10px;
+    height:100%;
+    position:absolute;
+    width:1px;
+    height:90%;
+  }
+}
+
+.planning-list-date {
+  color: #c6cfd6;
+  font-size: 13px;
+  font-family: $font-default;
+}
+
+.planning-list-discpiption {
+  color: #8695a1;
+  font-size: 13px;
+  font-family: $font-default;
+}
+
+.active-link {
+  font-size: 13px;
+  font-family: $font-default;
+  color: #919faa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-table {
+  list-style-type: none;
+  border: 1px solid #dbe0e3;
+  background: #fff;
+  border-radius: 6px;
+  width: 25%;
+  border: 1px solid #dbe0e3;
+  padding: 0;
+  height: 100%;
+   li {
+     border-bottom: 1px solid #dbe0e3;
+     cursor: pointer;
+     a {
+       padding: 13px;
+       display: block;
+     }
+     &:hover .active-link {
+       color: $green-primary;
+     }
+     .active > .active-link {
+       color: $green-primary;
+     }
+   }
+}
+
+.list-horizont {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  li {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media screen and (max-width: $w-m) {
+  .list-table {
+    li {
+      a {
+        padding: 10px;
+        display: block;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .active-link {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: $w-s) {
+  .list-table {
+    li {
+      a {
+        padding: 9px;
+        display: block;
+        font-size: 11px;
+      }
+    }
+  }
+
+  .active-link {
+    font-size: 11px;
+  }
+}

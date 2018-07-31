@@ -1,0 +1,60 @@
+{
+  "en": {
+    "global.email": "Email",
+    "global.password": "Password",
+    "global.company": "Company",
+    "global.uploading": "Uploading...",
+    "global.modal.cancel": "Cancel",
+    "global.modal.change": "Change",
+    "global.modal.continue": "Continue",
+    "global.search.placeholder": "Search...",
+    "global.form.enter": "Enter",
+    "global.form.datepickerPlaceholder": "mm/dd/yyyy",
+    "global.form.filePlaceholder": "Drop file to attach, or <span class=\"col-lime\">browse</span>",
+
+    "errors.field.required": "Required field",
+    "errors.email.invalid": "Your e-mail has not passed validation",
+    "errors.password.invalid": "The password must contain at least 8 characters, one capital letter, one number, one special symbol",
+    "errors.password.notEqual": "New password and confirmed password must be the same!",
+
+    "routes.auth.backToSignIn": "Back to Sign in",
+    "routes.auth.forgotPassword.form.btn.submit": "Send",
+    "routes.auth.forgotPassword.form.title": "Password recovery",
+    "routes.auth.login.forgotPassword": "Forgot password?",
+    "routes.auth.login.btn.signIn": "Sign In",
+    "routes.auth.recoveryPassword.form.btn.submit": "Restore password",
+    "routes.auth.recoveryPassword.form.title": "New password",
+    "routes.auth.recoveryPassword.newPassword": "New password",
+    "routes.auth.recoveryPassword.confirmPassword": "Repeat password",
+
+    "components.componentLoader.timedOut": "Loading takes a lot of time. Try to reload the page",
+
+    "components.leftMenu.dashboard": "Dashboard",
+    "components.leftMenu.structure": "Structure",
+    "components.leftMenu.inventory": "Inventory",
+    "components.leftMenu.planning": "Planning",
+    "components.leftMenu.reports": "Reports",
+    "components.leftMenu.items": "Items",
+    "components.leftMenu.scanner": "Barcode Scanner",
+    "components.leftMenu.adminPanel": "Admin Panel",
+
+    "components.mainHeader.btn.createItem": "Create Item",
+    "components.itemModal.btn.newItem": "New Item",
+    "components.itemModal.btn.editItem": "Edit Item",
+    "components.itemModal.btn.addItem": "Add Item",
+
+    "components.itemModal.form.nameLabel": "Name",
+    "components.itemModal.form.descriptionLabel": "Description",
+    "components.itemModal.form.barcodeLabel": "Barcode",
+    "components.itemModal.form.barcodePlaceholder": "Enter manually",
+    "components.itemModal.form.barcodeDeviceSelect": "Select device",
+    "components.itemModal.form.locationLabel": "Location",
+    "components.itemModal.form.collaboratorLabel": "Collaborator",
+    "components.itemModal.form.statusLabel": "Status",
+    "components.itemModal.form.countLabel": "Total count",
+    "components.itemModal.form.commentLabel": "Comment",
+    "components.itemModal.form.photoLabel": "Photo",
+    "components.itemModal.form.serialLabel": "Serial number",
+    "components.itemModal.form.photoPlaceholder": "Drop photo to attach, or <span class=\"col-lime\">browse</span>"
+  }
+}

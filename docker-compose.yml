@@ -1,0 +1,20 @@
+version: '3'
+services:
+  web:
+    build: .
+    container_name: inventory_react
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app/:rw
+    # Before you run this file for the first time, make sure 
+    # you remove node_modules/ folders in your host machine
+    command: >
+      sh -c '
+      if test -d node_modules;
+      then
+        echo node_modules_exists ;
+      else
+        cp -a /tmp/node_modules /usr/src/app;
+      fi && 
+      yarn && yarn start'

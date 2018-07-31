@@ -1,0 +1,23 @@
+.wrap-top-header
+  .container-fluid
+    .row
+      .col-8.header-left-block.df-sb
+        button(type='button').header-lupe
+          svg.svg-lupe: use(xlink:href="/images/sprite.svg#lupe")
+        input.form-control(type='text', placeholder="Search..." class="header-search")
+        button.style-btn-non
+          svg.svg-cancel: use(xlink:href="/images/sprite.svg#delete")
+      .col-4.header-right-block
+        .header-block-item
+          button.button-elips-lime
+            img(src="/images/plus.svg" class="header-plus" alt="plus")
+            span.title-header-btn Create Item
+        .header-block-item.posr
+          img(src="/images/alarm.svg" class="header-alarm" alt="header-alarm")
+          .green-round
+        .header-block-item
+          a(href='#')
+            img(src="/images/avatar.png" class="header-avatar" alt="header-avatar")
+
+
+

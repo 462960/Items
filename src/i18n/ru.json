@@ -1,0 +1,60 @@
+{
+  "ru": {
+    "global.email": "Email",
+    "global.password": "Пароль",
+    "global.company": "Компания",
+    "global.uploading": "Загрузка...",
+    "global.modal.cancel": "Назад",
+    "global.modal.change": "Изменить",
+    "global.modal.continue": "Продолжить",
+    "global.search.placeholder": "Найти...",
+    "global.form.enter": "Введите",
+    "global.form.datepickerPlaceholder": "mm/dd/yyyy",
+    "global.form.filePlaceholder": "Drop file to attach, or <span class=\"col-lime\">browse</span>",
+
+    "errors.field.required": "Обязательное поле",
+    "errors.email.invalid": "Ваш e-mail не прошел валидацию",
+    "errors.password.invalid": "Пароль должен содержать как минимум 8 символов, 1 заглавную букву, 1 цифру, 1 спец. символ",
+    "errors.password.notEqual": "Новый пароль и подтвержденный пароль должны быть одинаковыми!",
+
+    "routes.auth.backToSignIn": "Назад",
+    "routes.auth.forgotPassword.form.btn.submit": "Отправить",
+    "routes.auth.forgotPassword.form.title": "Восстановление пароля",
+    "routes.auth.login.forgotPassword": "Забыли пароль?",
+    "routes.auth.login.btn.signIn": "Войти",
+    "routes.auth.recoveryPassword.form.btn.submit": "Восстановить пароль",
+    "routes.auth.recoveryPassword.form.title": "Новый пароль",
+    "routes.auth.recoveryPassword.newPassword": "Новый пароль",
+    "routes.auth.recoveryPassword.confirmPassword": "Повторите пароль",
+
+    "components.componentLoader.timedOut": "Загрузка занимает много времени. Попробуйте перезагрузить страницу",
+
+    "components.leftMenu.dashboard": "Статистика",
+    "components.leftMenu.structure": "Структура",
+    "components.leftMenu.inventory": "Инвентарь",
+    "components.leftMenu.planning": "Планирование",
+    "components.leftMenu.reports": "Отчеты",
+    "components.leftMenu.items": "Предметы",
+    "components.leftMenu.scanner": "Сканнер штрих-кода",
+    "components.leftMenu.adminPanel": "Панель администратора",
+
+    "components.mainHeader.btn.createItem": "Создать предмет",
+    "components.itemModal.btn.newItem": "Добавление предмета",
+    "components.itemModal.btn.editItem": "Редактирование предмета",
+    "components.itemModal.btn.addItem": "Добавить",
+
+    "components.itemModal.form.nameLabel": "Name",
+    "components.itemModal.form.descriptionLabel": "Description",
+    "components.itemModal.form.barcodeLabel": "Barcode",
+    "components.itemModal.form.barcodePlaceholder": "Enter manually",
+    "components.itemModal.form.barcodeDeviceSelect": "Select device",
+    "components.itemModal.form.locationLabel": "Location",
+    "components.itemModal.form.collaboratorLabel": "Collaborator",
+    "components.itemModal.form.statusLabel": "Status",
+    "components.itemModal.form.countLabel": "Total count",
+    "components.itemModal.form.commentLabel": "Comment",
+    "components.itemModal.form.photoLabel": "Photo",
+    "components.itemModal.form.serialLabel": "Serial number",
+    "components.itemModal.form.photoPlaceholder": "Drop photo to attach, or <span class=\"col-lime\">browse</span>"
+  }
+}
