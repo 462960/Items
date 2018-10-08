@@ -22,3 +22,7 @@ npm run markup:build
 6) unzip build.zip
 7) rm build.zip
 
+## The project could be initiated with create-react-app and TypeScript
+just run
+npx create-react-app my-app --scripts-version=react-scripts-ts
+
